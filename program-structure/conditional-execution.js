@@ -19,7 +19,7 @@ function heyBob (words) {
     return 'Sure.'}
   else if (words.includes('!')){
     return 'Whoa, chill out!'}
-  else if (words == ''){
+  else if (words.length == 0){
     return 'Fine. Be that way!'}
   else {
     return 'Whatever.'}
