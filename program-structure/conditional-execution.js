@@ -15,11 +15,11 @@ He answers 'Whatever.' to anything else.
 */
 
 function heyBob (words) {
-  if words.includes('?')
+  if (words.includes('?'))
     return 'Sure.';
-  else if words.includes('!')
+  else if (words.includes('!'))
     return 'Whoa, chill out!';
-  else if words.includes(' ')
+  else if (words.includes(' '))
     return 'Fine. Be that way!';
   else 
     return 'Whatever.';
